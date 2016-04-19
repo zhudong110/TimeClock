@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ABB7741CC5C3560050826D /* groupCountries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04ABB7731CC5C3560050826D /* groupCountries.plist */; };
+		04ABB7771CC5C61B0050826D /* GroupCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB7761CC5C61B0050826D /* GroupCountry.m */; };
+		04ABB77D1CC5C8BA0050826D /* CountriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB77C1CC5C8BA0050826D /* CountriesController.m */; };
+		04ABB7801CC5CA2A0050826D /* CountriesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB77F1CC5CA2A0050826D /* CountriesNavigationController.m */; };
+		04ABB7A61CC5FBD40050826D /* ClockNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB7A51CC5FBD40050826D /* ClockNavigationController.m */; };
+		04ABB7A91CC60BBF0050826D /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB7A81CC60BBF0050826D /* Clock.m */; };
+		04ABB7AC1CC62EB90050826D /* AddClockNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB7AB1CC62EB90050826D /* AddClockNavigationController.m */; };
+		04ABB7AF1CC62EE40050826D /* AddClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB7AE1CC62EE40050826D /* AddClockController.m */; };
+		04DFAEB31CC3250C0080815A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAEB21CC3250C0080815A /* main.m */; };
+		04DFAEB61CC3250C0080815A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAEB51CC3250C0080815A /* AppDelegate.m */; };
+		04DFAEBE1CC3250C0080815A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DFAEBD1CC3250C0080815A /* Assets.xcassets */; };
+		04DFAEC11CC3250C0080815A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DFAEBF1CC3250C0080815A /* LaunchScreen.storyboard */; };
+		04DFAF561CC382FC0080815A /* WorldNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF551CC382FC0080815A /* WorldNavigationController.m */; };
+		04DFAF5C1CC385600080815A /* HMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF5B1CC385600080815A /* HMTabBarController.m */; };
+		04DFAF8A1CC3DF2E0080815A /* WorldClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF891CC3DF2E0080815A /* WorldClockController.m */; };
+		04DFAF8D1CC3E0080080815A /* SecondClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF8C1CC3E0080080815A /* SecondClockController.m */; };
+		04DFAF901CC3E0480080815A /* TimeClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF8F1CC3E0480080815A /* TimeClockController.m */; };
+		04DFAF931CC3E0690080815A /* TimerCountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF921CC3E0690080815A /* TimerCountController.m */; };
+		04DFAF961CC3E69B0080815A /* TimeClockNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF951CC3E69B0080815A /* TimeClockNavigationController.m */; };
+		04DFAF9B1CC3E70B0080815A /* SecondNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF9A1CC3E70B0080815A /* SecondNavigationController.m */; };
+		04DFAF9F1CC3E74A0080815A /* TimerCountNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DFAF9E1CC3E74A0080815A /* TimerCountNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04ABB7731CC5C3560050826D /* groupCountries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = groupCountries.plist; sourceTree = "<group>"; };
+		04ABB7751CC5C61B0050826D /* GroupCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupCountry.h; sourceTree = "<group>"; };
+		04ABB7761CC5C61B0050826D /* GroupCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupCountry.m; sourceTree = "<group>"; };
+		04ABB77B1CC5C8BA0050826D /* CountriesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountriesController.h; path = ../CountriesController.h; sourceTree = "<group>"; };
+		04ABB77C1CC5C8BA0050826D /* CountriesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountriesController.m; path = ../CountriesController.m; sourceTree = "<group>"; };
+		04ABB77E1CC5CA2A0050826D /* CountriesNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountriesNavigationController.h; sourceTree = "<group>"; };
+		04ABB77F1CC5CA2A0050826D /* CountriesNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountriesNavigationController.m; sourceTree = "<group>"; };
+		04ABB7A41CC5FBD40050826D /* ClockNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockNavigationController.h; sourceTree = "<group>"; };
+		04ABB7A51CC5FBD40050826D /* ClockNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockNavigationController.m; sourceTree = "<group>"; };
+		04ABB7A71CC60BBF0050826D /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
+		04ABB7A81CC60BBF0050826D /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
+		04ABB7AA1CC62EB90050826D /* AddClockNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClockNavigationController.h; sourceTree = "<group>"; };
+		04ABB7AB1CC62EB90050826D /* AddClockNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClockNavigationController.m; sourceTree = "<group>"; };
+		04ABB7AD1CC62EE40050826D /* AddClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClockController.h; sourceTree = "<group>"; };
+		04ABB7AE1CC62EE40050826D /* AddClockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClockController.m; sourceTree = "<group>"; };
+		04DFAEAE1CC3250C0080815A /* 时针练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时针练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFAEB21CC3250C0080815A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DFAEB41CC3250C0080815A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DFAEB51CC3250C0080815A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DFAEBD1CC3250C0080815A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DFAEC01CC3250C0080815A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DFAEC21CC3250C0080815A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DFAF541CC382FC0080815A /* WorldNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldNavigationController.h; sourceTree = "<group>"; };
+		04DFAF551CC382FC0080815A /* WorldNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldNavigationController.m; sourceTree = "<group>"; };
+		04DFAF5A1CC385600080815A /* HMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBarController.h; sourceTree = "<group>"; };
+		04DFAF5B1CC385600080815A /* HMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBarController.m; sourceTree = "<group>"; };
+		04DFAF881CC3DF2E0080815A /* WorldClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldClockController.h; sourceTree = "<group>"; };
+		04DFAF891CC3DF2E0080815A /* WorldClockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldClockController.m; sourceTree = "<group>"; };
+		04DFAF8B1CC3E0080080815A /* SecondClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondClockController.h; sourceTree = "<group>"; };
+		04DFAF8C1CC3E0080080815A /* SecondClockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondClockController.m; sourceTree = "<group>"; };
+		04DFAF8E1CC3E0480080815A /* TimeClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClockController.h; sourceTree = "<group>"; };
+		04DFAF8F1CC3E0480080815A /* TimeClockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeClockController.m; sourceTree = "<group>"; };
+		04DFAF911CC3E0690080815A /* TimerCountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerCountController.h; sourceTree = "<group>"; };
+		04DFAF921CC3E0690080815A /* TimerCountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerCountController.m; sourceTree = "<group>"; };
+		04DFAF941CC3E69B0080815A /* TimeClockNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeClockNavigationController.h; sourceTree = "<group>"; };
+		04DFAF951CC3E69B0080815A /* TimeClockNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeClockNavigationController.m; sourceTree = "<group>"; };
+		04DFAF991CC3E70B0080815A /* SecondNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondNavigationController.h; sourceTree = "<group>"; };
+		04DFAF9A1CC3E70B0080815A /* SecondNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondNavigationController.m; sourceTree = "<group>"; };
+		04DFAF9D1CC3E74A0080815A /* TimerCountNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerCountNavigationController.h; sourceTree = "<group>"; };
+		04DFAF9E1CC3E74A0080815A /* TimerCountNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerCountNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DFAEAB1CC3250C0080815A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DFAEA51CC3250C0080815A = {
+			isa = PBXGroup;
+			children = (
+				04DFAEB01CC3250C0080815A /* 时针练习 */,
+				04DFAEAF1CC3250C0080815A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DFAEAF1CC3250C0080815A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DFAEAE1CC3250C0080815A /* 时针练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DFAEB01CC3250C0080815A /* 时针练习 */ = {
+			isa = PBXGroup;
+			children = (
+				04DFAEB41CC3250C0080815A /* AppDelegate.h */,
+				04DFAEB51CC3250C0080815A /* AppDelegate.m */,
+				04DFAF5A1CC385600080815A /* HMTabBarController.h */,
+				04DFAF5B1CC385600080815A /* HMTabBarController.m */,
+				04ABB7A41CC5FBD40050826D /* ClockNavigationController.h */,
+				04ABB7A51CC5FBD40050826D /* ClockNavigationController.m */,
+				04DFAF971CC3E6B80080815A /* World */,
+				04DFAF981CC3E6CE0080815A /* TimeClock */,
+				04DFAF9C1CC3E71B0080815A /* Second */,
+				04DFAFA01CC3E7540080815A /* TimerCount */,
+				04DFAEBD1CC3250C0080815A /* Assets.xcassets */,
+				04DFAEBF1CC3250C0080815A /* LaunchScreen.storyboard */,
+				04DFAEC21CC3250C0080815A /* Info.plist */,
+				04DFAEB11CC3250C0080815A /* Supporting Files */,
+			);
+			path = "时针练习";
+			sourceTree = "<group>";
+		};
+		04DFAEB11CC3250C0080815A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DFAEB21CC3250C0080815A /* main.m */,
+				04ABB7731CC5C3560050826D /* groupCountries.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DFAF971CC3E6B80080815A /* World */ = {
+			isa = PBXGroup;
+			children = (
+				04DFAF541CC382FC0080815A /* WorldNavigationController.h */,
+				04DFAF551CC382FC0080815A /* WorldNavigationController.m */,
+				04DFAF881CC3DF2E0080815A /* WorldClockController.h */,
+				04DFAF891CC3DF2E0080815A /* WorldClockController.m */,
+				04ABB77E1CC5CA2A0050826D /* CountriesNavigationController.h */,
+				04ABB77F1CC5CA2A0050826D /* CountriesNavigationController.m */,
+				04ABB77B1CC5C8BA0050826D /* CountriesController.h */,
+				04ABB77C1CC5C8BA0050826D /* CountriesController.m */,
+				04ABB7751CC5C61B0050826D /* GroupCountry.h */,
+				04ABB7761CC5C61B0050826D /* GroupCountry.m */,
+				04ABB7A71CC60BBF0050826D /* Clock.h */,
+				04ABB7A81CC60BBF0050826D /* Clock.m */,
+			);
+			name = World;
+			sourceTree = "<group>";
+		};
+		04DFAF981CC3E6CE0080815A /* TimeClock */ = {
+			isa = PBXGroup;
+			children = (
+				04DFAF941CC3E69B0080815A /* TimeClockNavigationController.h */,
+				04DFAF951CC3E69B0080815A /* TimeClockNavigationController.m */,
+				04DFAF8E1CC3E0480080815A /* TimeClockController.h */,
+				04DFAF8F1CC3E0480080815A /* TimeClockController.m */,
+				04ABB7AA1CC62EB90050826D /* AddClockNavigationController.h */,
+				04ABB7AB1CC62EB90050826D /* AddClockNavigationController.m */,
+				04ABB7AD1CC62EE40050826D /* AddClockController.h */,
+				04ABB7AE1CC62EE40050826D /* AddClockController.m */,
+			);
+			name = TimeClock;
+			sourceTree = "<group>";
+		};
+		04DFAF9C1CC3E71B0080815A /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				04DFAF8B1CC3E0080080815A /* SecondClockController.h */,
+				04DFAF8C1CC3E0080080815A /* SecondClockController.m */,
+				04DFAF991CC3E70B0080815A /* SecondNavigationController.h */,
+				04DFAF9A1CC3E70B0080815A /* SecondNavigationController.m */,
+			);
+			name = Second;
+			sourceTree = "<group>";
+		};
+		04DFAFA01CC3E7540080815A /* TimerCount */ = {
+			isa = PBXGroup;
+			children = (
+				04DFAF911CC3E0690080815A /* TimerCountController.h */,
+				04DFAF921CC3E0690080815A /* TimerCountController.m */,
+				04DFAF9D1CC3E74A0080815A /* TimerCountNavigationController.h */,
+				04DFAF9E1CC3E74A0080815A /* TimerCountNavigationController.m */,
+			);
+			name = TimerCount;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DFAEAD1CC3250C0080815A /* 时针练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFAEC51CC3250C0080815A /* Build configuration list for PBXNativeTarget "时针练习" */;
+			buildPhases = (
+				04DFAEAA1CC3250C0080815A /* Sources */,
+				04DFAEAB1CC3250C0080815A /* Frameworks */,
+				04DFAEAC1CC3250C0080815A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "时针练习";
+			productName = "时针练习";
+			productReference = 04DFAEAE1CC3250C0080815A /* 时针练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DFAEA61CC3250C0080815A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = itheima.com;
+				TargetAttributes = {
+					04DFAEAD1CC3250C0080815A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04DFAEA91CC3250C0080815A /* Build configuration list for PBXProject "时针练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DFAEA51CC3250C0080815A;
+			productRefGroup = 04DFAEAF1CC3250C0080815A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DFAEAD1CC3250C0080815A /* 时针练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DFAEAC1CC3250C0080815A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFAEC11CC3250C0080815A /* LaunchScreen.storyboard in Resources */,
+				04DFAEBE1CC3250C0080815A /* Assets.xcassets in Resources */,
+				04ABB7741CC5C3560050826D /* groupCountries.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DFAEAA1CC3250C0080815A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFAF8D1CC3E0080080815A /* SecondClockController.m in Sources */,
+				04ABB7A61CC5FBD40050826D /* ClockNavigationController.m in Sources */,
+				04DFAEB61CC3250C0080815A /* AppDelegate.m in Sources */,
+				04ABB7AF1CC62EE40050826D /* AddClockController.m in Sources */,
+				04DFAF5C1CC385600080815A /* HMTabBarController.m in Sources */,
+				04DFAF9F1CC3E74A0080815A /* TimerCountNavigationController.m in Sources */,
+				04ABB7801CC5CA2A0050826D /* CountriesNavigationController.m in Sources */,
+				04DFAEB31CC3250C0080815A /* main.m in Sources */,
+				04DFAF8A1CC3DF2E0080815A /* WorldClockController.m in Sources */,
+				04DFAF901CC3E0480080815A /* TimeClockController.m in Sources */,
+				04DFAF961CC3E69B0080815A /* TimeClockNavigationController.m in Sources */,
+				04ABB7771CC5C61B0050826D /* GroupCountry.m in Sources */,
+				04ABB7AC1CC62EB90050826D /* AddClockNavigationController.m in Sources */,
+				04ABB77D1CC5C8BA0050826D /* CountriesController.m in Sources */,
+				04DFAF9B1CC3E70B0080815A /* SecondNavigationController.m in Sources */,
+				04DFAF561CC382FC0080815A /* WorldNavigationController.m in Sources */,
+				04ABB7A91CC60BBF0050826D /* Clock.m in Sources */,
+				04DFAF931CC3E0690080815A /* TimerCountController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04DFAEBF1CC3250C0080815A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DFAEC01CC3250C0080815A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DFAEC31CC3250C0080815A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DFAEC41CC3250C0080815A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DFAEC61CC3250C0080815A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "时针练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04DFAEC71CC3250C0080815A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "时针练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DFAEA91CC3250C0080815A /* Build configuration list for PBXProject "时针练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFAEC31CC3250C0080815A /* Debug */,
+				04DFAEC41CC3250C0080815A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFAEC51CC3250C0080815A /* Build configuration list for PBXNativeTarget "时针练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFAEC61CC3250C0080815A /* Debug */,
+				04DFAEC71CC3250C0080815A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DFAEA61CC3250C0080815A /* Project object */;
+}
